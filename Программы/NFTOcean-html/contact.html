@@ -1,0 +1,505 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+     <title>NFTOcean - NFT Marketplace Website Template + Light & Dark</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- favicon -->
+    <link rel="icon" href="assets/images/favicon.png" type="image/gif" sizes="20x20">
+
+    <!-- fancybox -->
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
+    <!-- bootstarp icon -->
+    <link rel="stylesheet" href="assets/css/dropzone.min.css">
+    <!-- bootstarp icon -->
+    <link rel="stylesheet" href="assets/css/bootstrap-icons.css">
+    <!-- animate Css -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!-- Swiper bundle Css -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+</head>
+
+<body class="theme-light-active">
+
+     <!-- mobil__searchbar style -->
+     <div class="mobil__searchbar" id="mobilSearch">
+        <div class="input__wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="pb-3 d-flex align-items-center justify-content-between"><h5>What are you looking for?</h5> <span class="close__search" id="closeSearch">Close Popup</span></div>
+                        <form action="#">
+                            <div class="d-flex">
+                                <input type="text" placeholder="Search Item, Creators, Collections etc.">
+                                <button class="submit-v1 ml-2">Search</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===============  header area start =============== -->
+    <header>
+        <div class="header-area header-defult header_style__two bg-body">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-xl-4 col-2 col-lg-3 col-md-2 col-2 align-items-center d-flex order-0">
+                        <div class="nav-logo logo-switch d-flex justify-content-between align-items-center">
+                            <a class="logo-dark" href="index.html"><img src="assets/images/logo.png" alt="logo"></a>
+                            <a class="logo-light" href="index.html"><img src="assets/images/logo-v2.png" alt="logo"></a>
+                        </div>
+                        <div class="nav-search-style-two w-100 d-xl-block d-none">
+                            <span class="search__icon">
+                                <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8.26847 16.0378C12.2827 16.0378 15.5369 12.7834 15.5369 8.7689C15.5369 4.7544 12.2827 1.5 8.26847 1.5C4.2542 1.5 1 4.7544 1 8.7689C1 12.7834 4.2542 16.0378 8.26847 16.0378Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M17.0002 17.5L13.4023 13.9025" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                 </svg>
+                            </span>
+                            <input type="text" placeholder="Collection, item or user">
+                        </div>
+                    </div>
+                    <div class="col-xl-8 col-10 col-lg-9 d-flex justify-content-end">
+                        <nav class="main-nav mr-2">
+                            <div class="inner-logo d-xl-none text-center pt-4">
+                                <a href="#" class="for-dark"><img src="assets/images/logo.png" alt=""></a>
+                                <a href="#" class="for-light"><img src="assets/images/logo-v2.png" alt=""></a>
+                            </div>
+                            <ul>
+                                <li class="has-child-menu">
+                                    <a href="javascript:void(0)">Home</a>
+                                    <i class="fl flaticon-plus">+</i>
+                                    <ul class="sub-menu">
+                                        <li><a href="index.html">Home Style - 01</a></li>
+                                        <li><a href="index-2.html">Home Style - 02</a></li>
+                                        <li><a href="index-3.html">Home Style - 03</a></li>
+
+                                    </ul>
+                                </li>
+                                <li class="has-child-menu">
+                                    <a href="javascript:void(0)">Explore</a>
+                                    <i class="fl flaticon-plus">+</i>
+                                    <ul class="sub-menu">
+                                        <li><a href="marketplace-1.html">Marketplace - 1</a></li>
+                                        <li><a href="marketplace-2.html">Marketplace - 2</a></li>
+                                        <li><a href="auction.html">Live Auction</a></li>
+                                        <li><a href="collection.html">Collection</a></li>
+
+                                    </ul>
+                                </li>
+                                <li class="has-child-menu">
+                                    <a href="javascript:void(0)">Pages</a>
+                                    <i class="fl flaticon-plus">+</i>
+                                    <ul class="sub-menu">
+                                        <li><a href="about.html">About</a></li>
+                                        <li><a href="auction.html">Live Auction</a></li>
+                                        <li><a href="collection.html">Collection</a></li>
+                                        <li><a href="activity.html">Activity</a></li>
+                                        <li><a href="connect-wallet.html">Connect Wallet</a></li>
+                                        <li><a href="nft-details.html">NFT Details</a></li>
+                                        <li><a href="author-profile.html">Author Profile</a></li>
+                                        <li><a href="login.html">Login</a></li>
+                                        <li><a href="register.html">Register</a></li>
+                                    </ul>
+                                </li>
+                                <li class="has-child-menu">
+                                    <a href="javascript:void(0)">Create</a>
+                                    <i class="fl flaticon-plus">+</i>
+                                    <ul class="sub-menu">
+                                        <li><a href="create.html">Create NFT</a></li>
+                                        <li><a href="create-multiple.html">Create NFT (Maltiple)</a></li>
+                                        <li><a href="create-single.html">Create NFT (Single)</a></li>
+                                        <li><a href="creators.html">Creators</a></li>
+                                    </ul>
+                                </li>
+                                <li class="has-child-menu">
+                                    <a href="javascript:void(0)">Blog</a>
+                                    <i class="fl flaticon-plus">+</i>
+                                    <ul class="sub-menu">
+                                        <li><a href="blog.html">Blog Grid</a></li>
+                                        <li><a href="blog-details.html">Blog Details</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="contact.html">Contact</a></li>
+
+                            </ul>
+
+                            <div class="d-xl-none d-inline-flex flex-column gap-3 px-3 mt-4">
+                                <a href="connect-wallet.html" class="btn-pill-v1"><span>Connect Wallet</span></a>
+                            </div>
+                        </nav>
+
+                        <div class="nav-actions d-flex align-items-center">
+                           
+                            <div class="d-none d-md-block mr-2">
+                                <a href="connect-wallet.html" class="btn-pill-v1"><span>Connect Wallet</span></a>
+                            </div>
+                            <button type="button" class="nav_search__icon mr-2 d-block d-xl-none mr-2 style__two" id="navSearch">
+                                <svg width="18" height="19" viewBox="0 0 18 19" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M8.26847 16.0378C12.2827 16.0378 15.5369 12.7834 15.5369 8.7689C15.5369 4.7544 12.2827 1.5 8.26847 1.5C4.2542 1.5 1 4.7544 1 8.7689C1 12.7834 4.2542 16.0378 8.26847 16.0378Z"
+                                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                    <path d="M17.0002 17.5L13.4023 13.9025" stroke="currentColor" stroke-width="1.5"
+                                        stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                            </button>
+                            <label class="theme-switch-one style__two">
+                                <input type="checkbox" id="slider" class="slider-light check-status">
+                                <span class="slider round"></span>
+                            </label>
+                           
+                            <div class="d-flex align-items-center gap-4 ml-2">
+                                <div class="mobile-menu d-flex ">
+                                    <a href="javascript:void(0)" class="hamburger d-block d-xl-none">
+                                        <span class="h-top"></span>
+                                        <span class="h-middle"></span>
+                                        <span class="h-bottom"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ===============  header area end =============== -->
+
+    <!-- ===============  breadcrumb style start =============== -->
+    <div class="breadcrumb_style__two bg-body-2">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-between flex-wrap gap-2">
+                <a href="index.html" class="back__btn">
+                    <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M11 6.5H1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M6 11.5L1 6.5L6 1.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <span>Back to home</span>
+                </a>
+
+                <ul class="d-flex page__list">
+                    <li><a href="index.html">Home</a></li>
+                    <li>Page</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- ===============  breadcrumb style end =============== -->
+    
+    <!-- =============== contact wrapper start =============== -->
+    <div class="contact_wrapper__style bg-body-2 section_gap_y_top__2">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-5 col-lg-6 text-center">
+                    <h2 class="contact__title"><span>Hi,🖐 We are</span> NFTOcean</h2>
+                    <p class="disc-text-2 pt-2">We’re here to help and answer any question you might have.We look forward to hearing from you 🙂</p>
+                </div>
+            </div>
+            
+            <div class="row pt-50 gy-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="contact_card__style">
+                        <div class="contact__icon">
+                            <img src="assets/images/icons/3d-phone.svg" alt="">
+                        </div>
+                        <div class="contact__disc">
+                            <h5>Toll Free: <a href="tel:012345678910">+0123 4567 8910</a> <br>
+                                International: <a href="tel:012345678910">+0123 4567 8910</a></h5>
+                            
+                                <a href="tel:012345678910" class="btn-pill-outlined">Call Us
+                                    <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 6.49988H11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M6 1.49988L11 6.49988L6 11.4999" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 ">
+                    <div class="contact_card__style">
+                        <div class="contact__icon">
+                            <img src="assets/images/icons/3d-support.svg" alt="">
+                        </div>
+                        <div class="contact__disc">
+                            <h5>Online and always available, we’re
+                                here to answer your questions 24/7</h5>
+                            
+                                <a href="tel:012345678910" class="btn-pill-outlined">Contact Support
+                                    <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 6.49988H11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M6 1.49988L11 6.49988L6 11.4999" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="contact_card__style">
+                        <div class="contact__icon">
+                            <img src="assets/images/icons/3d-mail.svg" alt="">
+                        </div>
+                        <div class="contact__disc">
+                            <h5>Email us, 24/7, we’re alweys <br>
+                                responding</h5>
+                            
+                                <a href="#" class="btn-pill-outlined">Contact Support
+                                    <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 6.49988H11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M6 1.49988L11 6.49988L6 11.4999" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact_form__wrap section_gap_y_top__3 section_gap_y_bottom__3"> 
+                <div class="row">
+                    <div class="col-lg-4 h-100 d-none d-lg-block">
+                        <img src="assets/images/others/contact-form-img.png" alt="" >
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="contact_form__outer">
+                            <form action="#" id="contact__form">
+                                <div class="row">
+                                    <div class="col-lg-6 pt-20">
+                                        <div class="custom_input__style">
+                                            <label for="name">Your Name</label>
+                                            <input type="text" id="name" placeholder="Enter your name">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 pt-20">
+                                        <div class="custom_input__style">
+                                            <label for="name">Your Email</label>
+                                            <input type="email" id="email" placeholder="Enter your email">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 pt-20">
+                                        <div class="custom_input__style">
+                                            <div class="select_style__one varient-2">
+                                                <label>Your Name</label>
+                                                <select class="select__nice">
+                                                    <option data-display="United States">United States</option>
+                                                    <option value="1">Bangladash</option>
+                                                    <option value="2">Japan</option>
+                                                    <option value="3">Argetina</option>
+                                                    <option value="4">Mongolia</option>
+                                                    <option value="5">United Kingdom</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 pt-20">
+                                        <div class="custom_input__style">
+                                            <div class="select_style__one varient-2">
+                                                <label>Select a Subject</label>
+                                                <select class="select__nice">
+                                                    <option data-display="Service Request">Service Request</option>
+                                                    <option value="1">Item Refand</option>
+                                                    <option value="2">Buing Right</option>
+                                                    <option value="3">For tiket</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <div class="col-lg-12 pt-20">
+                                        <div class="custom_input__style">
+                                            <label for="massege">Message</label>
+                                            <textarea  id="massege" cols="30" rows="5" placeholder="Write a Message"></textarea>
+                                        </div>
+                                    </div>
+    
+                                    <div class="condition">
+                                        <input type="checkbox"  id="condition">
+                                        <label for="condition">Allow to all tearms & condition</label>
+                                    </div>
+
+                                   <div class="submit__btn">
+                                    <button type="submit" class="submit-v1">Send Message</button>
+                                   </div>
+    
+                                </div>
+                            </form>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact_cards__style bg-body-3 section_gap_y_top__2 section_gap_y_bottom__1">
+             <div class="container">
+                 <div class="row justify-content-center">
+                     <div class="col-lg-6 text-center">
+                        <h2 class="contact__title">We 're here for you</h2>
+                        <p class="disc-text-2 pt-2">We are located in <strong>3 offices</strong></p>
+                     </div>
+                 </div>
+                 <div class="row pt-50 gy-4">
+                     <div class="col-lg-4 col-md-6 ">
+                         <div class="contact_card_style__two">
+                            <div class="card__top">
+                                <h3>London</h3>
+                                <p>Wework mansion house.
+                                   34 Queen street, albaqueki state</p>
+                                <p class="office__location">United Kingdom</p>
+                            </div>
+                            <div class="card__bottom" >
+                                <a target="_blank" href="https://www.google.com/maps/place/Mirpur+DOHS+Shopping+Complex/@23.8380008,90.3731895,17z/data=!3m1!4b1!4m5!3m4!1s0x3755c6b4dace62ed:0xc742e878029e533b!8m2!3d23.8379959!4d90.3753782" class="map__link">View on Map</a>
+                                <a href="/cdn-cgi/l/email-protection#f7999183b79894929699d994989a" class="office__mail"><span class="__cf_email__" data-cfemail="8ee0e8facee1edebefe0a0ede1e3">[email&#160;protected]</span></a>
+                            </div>
+                         </div>
+                     </div>
+                     <div class="col-lg-4 col-md-6">
+                         <div class="contact_card_style__two">
+                            <div class="card__top">
+                                <h3>New York</h3>
+                                <p>Higson Ln, Melbourne boz sok.
+                                    No: 18/2 3445 Istanbul</p>
+                                <p class="office__location">United State</p>
+                            </div>
+                            <div class="card__bottom" >
+                                <a target="_blank" href="https://www.google.com/maps/place/Mirpur+DOHS+Shopping+Complex/@23.8380008,90.3731895,17z/data=!3m1!4b1!4m5!3m4!1s0x3755c6b4dace62ed:0xc742e878029e533b!8m2!3d23.8379959!4d90.3753782" class="map__link">View on Map</a>
+                                <a href="/cdn-cgi/l/email-protection#f9979f8db9969a9c9897d79a9694" class="office__mail"><span class="__cf_email__" data-cfemail="422c2436022d2127232c6c212d2f">[email&#160;protected]</span></a>
+                            </div>
+                         </div>
+                     </div>
+                     <div class="col-lg-4 col-md-6 ">
+                         <div class="contact_card_style__two">
+                            <div class="card__top">
+                                <h3>Dubai</h3>
+                                <p>Higson Ln, Melbourne boz sok.
+                                    No: 18/2 3445 Istanbul</p>
+                                <p class="office__location">United Arab Emirates</p>
+                            </div>
+                            <div class="card__bottom" >
+                                <a target="_blank" href="https://www.google.com/maps/place/Mirpur+DOHS+Shopping+Complex/@23.8380008,90.3731895,17z/data=!3m1!4b1!4m5!3m4!1s0x3755c6b4dace62ed:0xc742e878029e533b!8m2!3d23.8379959!4d90.3753782" class="map__link">View on Map</a>
+                                <a href="/cdn-cgi/l/email-protection#7b151d0f3b14181e1a1555181416" class="office__mail"><span class="__cf_email__" data-cfemail="d9b7bfad99b6babcb8b7f7bab6b4">[email&#160;protected]</span></a>
+                            </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+        </div>
+    </div>
+     <!-- =============== contact wrapper end =============== -->
+   
+
+    <!-- ===============  footer style start =============== -->
+    <div class="footer_style__one bg-body section_gap_y_top__2">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-3">
+                    <div class="footer__about">
+                        <div class="footer__logo">
+                            <a href="index.html" class="for-dark"><img src="assets/images/logo.png" alt=""></a>
+                            <a href="index.html" class="for-light"><img src="assets/images/logo-v2.png" alt=""></a>
+                        </div>
+                        <p>NFTOcean is a shared liquidity NFT market smart contract</p>
+
+
+                        <h5>Language</h5>
+                        <div class="languege__dropdown">
+                            <button>
+                               <img src="assets/images/icons/flag-us.png" alt=""> English
+                            </button>
+                            <ul class="languege__list">
+                              <li><a href="#"> <img src="assets/images/icons/flag-us.png" alt=""> English</a></li>
+                              <li><a href="#"> <img src="assets/images/icons/flag-us.png" alt=""> English</a></li>
+                            </ul>
+                          </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 d-flex justify-content-lg-center">
+                    <div class="footer__widget">
+                        <h6 class="footer_widget__title">Market plac</h6>
+
+                        <ul class="footer_widget__links">
+                            <li><a href="author-profile.html">Profile</a></li>
+                            <li><a href="marketplace-1.html">Marketplace</a></li>
+                            <li><a href="creators.html">Creators</a></li>
+                            <li><a href="activity.html">Activity</a></li>
+                            <li><a href="collection.html">Colletctions</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-6 d-flex justify-content-lg-center ">
+                    <div class="footer__widget">
+                        <h6 class="footer_widget__title">Company</h6>
+
+                        <ul class="footer_widget__links">
+                            <li><a href="create-multiple.html">Upload</a></li>
+                            <li><a href="connect-wallet.html">Connect wallet</a></li>
+                            <li><a href="blog.html">Our blog </a></li>
+                            <li><a href="nft-details.html">Item details</a></li>
+                            <li><a href="contact.html">Contact us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="footer__widget newslatter__widget">
+                        <h6 class="footer_widget__title">Join Newsletter</h6>
+                        <form action="#" method="POST" id="footer_form__one">
+                            <div class="footer_newslatter__one style__two mt-2">
+                                <input type="text" placeholder="Your Email">
+                                <button type="submit"
+                                    class="form__submit submit-btn-one btn-rounded-v1">Subscribe</button>
+                            </div>
+                        </form>
+
+                        <ul class="footer_social__links style__two d-flex">
+                            <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                            <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                            <li><a href="#"><i class="bi bi-youtube"></i></a></li>
+                            <li><a href="#"><i class="bi bi-github"></i></a></li>
+                            <li><a href="#"><i class="bi bi-discord"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row footer__copyright has-border-top">
+                <div class="col-lg-12">
+                    <p class="text-center">Copyright©2022. Created with love by <a href="#">wprealizer</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ===============  footer style end =============== -->
+
+     <!--Custom jsvascript and Plugins -->
+
+    <!-- jquery latest -->
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery-3.6.0.min.js" ></script>
+    <!-- latest bootstarp bundle -->
+    <script src="assets/js/bootstrap.bundle.min.js" ></script>
+    <!-- swiper bundle -->
+    <script src="assets/js/swiper-bundle.min.js" ></script>
+    <!-- wow js -->
+    <script src="assets/js/wow.min.js" ></script>
+    <!-- nice select -->
+    <script src="assets/js/jquery.nice-select.min.js" ></script>
+    <!-- jquery countdown -->
+    <script src="assets/js/jquery.countdown.js"  ></script>
+    <!-- dropzone js -->
+    <script src="assets/js/dropzone.min.js" ></script>
+    <!-- fancybox -->
+    <script src="assets/js/jquery.fancybox.min.js" ></script>
+    <!-- Custom JavaScript -->
+    <script async src="assets/js/main.js"></script>
+</body>
+
+</html> 

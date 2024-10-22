@@ -1,0 +1,8 @@
+lesson_1 Переменные, print(type(num))
+lesson_2 Input. login,password
+lesson_3 методы list.
+lesson_4 цикл for,while 
+lesson_5 info.update(dop_info)
+lesson_6 Функция.всроенная фнкция lambda. *args,**qwars
+lesson_7 info=list(map(lambda user: f"{user}-{len(user)}",users))
+lesson_8 file=open("info.txt",'w')

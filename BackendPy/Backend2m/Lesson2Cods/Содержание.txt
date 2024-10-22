@@ -1,0 +1,8 @@
+lesson_1 " ООП - Объектно Ориентрованное Программирование ". конструктор
+lesson_2 "Наследование и абстракция"
+lesson_3 "Инкапсуляция","@ - декоратор"
+lesson_4 "декоратор", "Множественное наследование","Магические методы"
+lesson_5 git --version, """Декомпозиция -- разделение кода по модулям"""
+lesson_6 from test import sum as plus, sub, mult, "./venv/Scripts/activate"
+lesson_7 "БД - База Данных", "CRUD - Create, Read, Update, Delete"
+lesson_8 connect = sqlite3.connect("Back_19_1.db"), def main(self):
